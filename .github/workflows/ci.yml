@@ -16,3 +16,6 @@ jobs:
 
       - name: Run tests
         run: pytest
+
+      - name: run pylint
+        run: pylint calculator.py || true
